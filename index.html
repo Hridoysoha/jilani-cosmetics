@@ -131,10 +131,11 @@ footer h4{color:#fff;margin-bottom:8px}
 footer p,footer a{color:#CFC4B2;font-size:.95rem}
 footer a:hover{color:#fff}
 .fbottom{border-top:1px solid rgba(255,255,255,.14);margin-top:24px;padding-top:16px;text-align:center;font-size:.86rem;color:#B7AB97}
-/* chat — side-docked, right edge */
-#chatBtn{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:200;background:var(--teal);color:#fff;border:0;border-radius:14px 0 0 14px;padding:14px 10px;cursor:pointer;box-shadow:-6px 8px 22px rgba(14,74,63,.35);display:flex;flex-direction:column;align-items:center;gap:7px;font-family:inherit}
-#chatBtn .cic{font-size:1.35rem;line-height:1}
-#chatBtn .clab{writing-mode:vertical-rl;font-weight:700;font-size:.82rem;letter-spacing:.04em}
+/* chat — small round button, right edge */
+#chatBtn{position:fixed;right:10px;top:50%;transform:translateY(-50%);z-index:200;background:transparent;border:0;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:5px;font-family:inherit}
+#chatBtn .cimg{width:52px;height:52px;border-radius:50%;overflow:hidden;border:2.5px solid var(--teal);box-shadow:0 8px 20px rgba(14,74,63,.35);background:#fff}
+#chatBtn .cimg img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+#chatBtn .clab{background:var(--teal-dark);color:#fff;font-weight:700;font-size:.66rem;padding:3px 9px;border-radius:999px;letter-spacing:.02em;box-shadow:0 4px 10px rgba(14,74,63,.3);white-space:nowrap}
 #chatPanel{position:fixed;right:14px;bottom:14px;z-index:210;width:min(360px,calc(100vw - 28px));height:min(520px,calc(100dvh - 28px));background:#fff;border-radius:20px;box-shadow:0 24px 60px rgba(26,26,26,.28);display:none;flex-direction:column;overflow:hidden;border:1px solid rgba(216,198,168,.8)}
 #chatPanel.open{display:flex}
 .chat-head{background:linear-gradient(120deg,var(--teal),var(--teal-dark));color:#fff;padding:14px 16px;display:flex;align-items:center;justify-content:space-between}
@@ -291,7 +292,7 @@ footer a:hover{color:#fff}
   </div>
 </footer>
 
-<button id="chatBtn" aria-label="Live Support খুলুন"><span class="cic">💬</span><span class="clab">Live Support</span></button>
+<button id="chatBtn" aria-label="Live Support খুলুন"><span class="cimg"><img src="assets/chat-logo.jpg" alt="Live Support"></span><span class="clab">Live Support</span></button>
 <div id="chatPanel" role="dialog" aria-label="Live Support">
   <div class="chat-head">
     <div><div class="t">Live Support</div><div class="s">জিলানী কসমেটিকস — আমরা সাহায্য করতে এখানে আছি</div></div>

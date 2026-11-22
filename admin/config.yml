@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "products"
+    label: "প্রোডাক্ট"
+    files:
+      - name: "products"
+        label: "সব প্রোডাক্ট"
+        file: "products.json"
+        fields:
+          - label: "প্রোডাক্টের তালিকা"
+            name: "products"
+            widget: "list"
+            fields:
+              - { label: "আইডি", name: "id", widget: "string" }
+              - { label: "নাম", name: "name", widget: "string" }
+              - { label: "ক্যাটাগরি", name: "cat", widget: "string" }
+              - { label: "দাম (খালি রাখলে 'দাম জানতে WhatsApp করুন' দেখাবে)", name: "price", widget: "string", required: false }
+              - { label: "ছবি", name: "img", widget: "image" }

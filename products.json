@@ -1,1 +1,60 @@
-{"products":[{"cat":"পারফিউম","id":"JC-01","img":"assets/product-01-perfume.jpg","name":"Wild Stone Premium Perfume Set (4x20ml)","price":""},{"cat":"লিপলাইনার","id":"JC-02","img":"assets/product-02-b116.jpg","name":"Beauty Glazed Kiss Proof Lipliner B116# Bruised Plum","price":""},{"cat":"লিপলাইনার","id":"JC-03","img":"assets/product-03-b115.jpg","name":"Beauty Glazed Kiss Proof Lipliner B115# Rose Beige","price":""},{"cat":"লিপলাইনার","id":"JC-04","img":"assets/product-04-b114.jpg","name":"Beauty Glazed Kiss Proof Lipliner B114# Chocolate","price":""},{"cat":"লিপলাইনার","id":"JC-05","img":"assets/product-05-b113.jpg","name":"Beauty Glazed Kiss Proof Lipliner B113# Cinnamon","price":""},{"cat":"লিপলাইনার","id":"JC-06","img":"assets/product-06-b112.jpg","name":"Beauty Glazed Kiss Proof Lipliner B112# Latte","price":""},{"cat":"লিপলাইনার","id":"JC-07","img":"assets/product-07-b111.jpg","name":"Beauty Glazed Kiss Proof Lipliner B111# Expose","price":""},{"cat":"লিপলাইনার","id":"JC-08","img":"assets/product-08-b110.jpg","name":"Beauty Glazed Kiss Proof Lipliner B110 Vintage Brick","price":""}]}
+{
+  "products": [
+    {
+      "cat": "পারফিউম",
+      "id": "JC-01",
+      "img": "assets/product-01-perfume.jpg",
+      "name": "Wild Stone Premium Perfume Set (4x20ml)",
+      "price": "850tk"
+    },
+    {
+      "cat": "লিপলাইনার",
+      "id": "JC-02",
+      "img": "assets/product-02-b116.jpg",
+      "name": "Beauty Glazed Kiss Proof Lipliner B116# Bruised Plum",
+      "price": ""
+    },
+    {
+      "cat": "লিপলাইনার",
+      "id": "JC-03",
+      "img": "assets/product-03-b115.jpg",
+      "name": "Beauty Glazed Kiss Proof Lipliner B115# Rose Beige",
+      "price": ""
+    },
+    {
+      "cat": "লিপলাইনার",
+      "id": "JC-04",
+      "img": "assets/product-04-b114.jpg",
+      "name": "Beauty Glazed Kiss Proof Lipliner B114# Chocolate",
+      "price": ""
+    },
+    {
+      "cat": "লিপলাইনার",
+      "id": "JC-05",
+      "img": "assets/product-05-b113.jpg",
+      "name": "Beauty Glazed Kiss Proof Lipliner B113# Cinnamon",
+      "price": ""
+    },
+    {
+      "cat": "লিপলাইনার",
+      "id": "JC-06",
+      "img": "assets/product-06-b112.jpg",
+      "name": "Beauty Glazed Kiss Proof Lipliner B112# Latte",
+      "price": ""
+    },
+    {
+      "cat": "লিপলাইনার",
+      "id": "JC-07",
+      "img": "assets/product-07-b111.jpg",
+      "name": "Beauty Glazed Kiss Proof Lipliner B111# Expose",
+      "price": ""
+    },
+    {
+      "cat": "লিপলাইনার",
+      "id": "JC-08",
+      "img": "assets/product-08-b110.jpg",
+      "name": "Beauty Glazed Kiss Proof Lipliner B110 Vintage Brick",
+      "price": ""
+    }
+  ]
+}

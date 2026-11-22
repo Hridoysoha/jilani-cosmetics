@@ -55,6 +55,13 @@
       "img": "assets/product-08-b110.jpg",
       "name": "Beauty Glazed Kiss Proof Lipliner B110 Vintage Brick",
       "price": "170tk"
+    },
+    {
+      "img": "/assets/1000147595.jpg",
+      "id": "JC-09",
+      "name": "BELLAVITA BODY SPRAY 120ML",
+      "cat": "Body spray ",
+      "price": "380tk"
     }
   ]
 }

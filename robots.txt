@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jilani-cosmetics.netlify.app/sitemap.xml

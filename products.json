@@ -55,12 +55,6 @@
       "img": "assets/product-08-b110.jpg",
       "name": "Beauty Glazed Kiss Proof Lipliner B110 Vintage Brick",
       "price": ""
-    },
-    {
-      "id": "TEST-01",
-      "name": "Test Product Delete Me",
-      "cat": "টেস্ট",
-      "img": "/assets/test-small.jpg"
     }
   ]
 }
